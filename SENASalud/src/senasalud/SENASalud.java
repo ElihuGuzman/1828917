@@ -23,6 +23,11 @@ public class SENASalud {
         System.out.println("Indique su edad");
         Edad = apellido.next();
         System.out.println("Su edad es: "+Edad);
+        
+        Scanner dinof = new Scanner (System.in);
+        System.out.println("Indique su dinosaurio favorito");
+        DinoFav = apellido.next();
+        System.out.println("Su dinosaurio favorito es: "+DinoFav);
     }
     
 }
